@@ -1,6 +1,6 @@
 #Practica 1 
-
- # Programa sencillo de validación de contraseña
+#Fraysmary Martinez-Matricula:24-SISN-2-049
+#Programa sencillo de validación de contraseña
 
 contraseña_valida = input("Define la contraseña válida: ").strip()
 
@@ -15,4 +15,5 @@ while intentos > 0:
         if intentos > 0:
             print(f"Contraseña incorrecta. Te quedan {intentos} intentos.")
         else:
+
             print("Has agotado los intentos. Acceso denegado")
