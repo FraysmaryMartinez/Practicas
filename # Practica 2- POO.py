@@ -1,11 +1,11 @@
 # Clase Padre
 class Vehiculo:
-    # Constructor con atributos comunes
+    
     def __init__(self, marca, modelo):
         self.marca = marca
         self.modelo = modelo
 
-    # Método común
+    
     def encender(self):
         print(f"El vehículo {self.marca} {self.modelo} está encendido.")
 
@@ -32,19 +32,19 @@ class Motocicleta(Vehiculo):
         print(f"La motocicleta {self.marca} hace un caballito.")
 
 
-# Creación de objetos
+
 auto1 = Automovil("Toyota", "Corolla", 4)
 moto1 = Motocicleta("Yamaha", "MT-07", "deportiva")
 
-# Uso de métodos heredados
+
 auto1.encender()
 moto1.encender()
 
-# Uso de métodos propios
+
 auto1.tocar_bocina()
 moto1.hacer_caballito()
 
-# Atributos propios
+
 print(f"El auto tiene {auto1.puertas} puertas.")
 print(f"La moto es de tipo {moto1.tipo}.")
 
@@ -57,4 +57,5 @@ auto1.encender()
 
 # Se llama a un método propio de la clase Automovil
 auto1.tocar_bocina()
+
 
